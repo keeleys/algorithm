@@ -22,8 +22,8 @@ public class BubbleTest {
     }
 
     @Test
-    public void inserttSort() {
-        System.out.println("=====选择排序=====");
+    public void insertSort() {
+        System.out.println("=====插入排序=====");
         SimpleSort bubble = new SimpleSort();
         bubble.print();
         bubble.insertSort();
